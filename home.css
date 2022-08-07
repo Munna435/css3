@@ -61,7 +61,7 @@ header{
 .hero-text-wrapper{
     position: absolute;
     top: 50%;
-    left: 27%;
+    left: calc( 25% + 5px );
     transform: translate(-50%, -50%);
 }
 
@@ -79,10 +79,13 @@ header{
     background-color: #333;
     color: #fff;
     text-transform: uppercase;
+    
+  
 }
 
 .shop-now-btn:hover{
     background-color: #000;
+    
 }
 
 
